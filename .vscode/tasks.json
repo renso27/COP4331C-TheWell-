@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "TheWell Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"Debug",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"Debug",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheWell Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"Debug",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheWell Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"Development",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"Development",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheWell Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"Development",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"Test",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"Test",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheWell Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"Test",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheWell Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWell Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TheWell",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWellEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWellEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWellEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWellEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheWellEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWellEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TheWellEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWellEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWellEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWellEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWellEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheWellEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWellEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TheWellEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWellEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWellEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWellEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TheWellEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TheWellEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		},
+		{
+			"label": "TheWellEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TheWellEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\antho\\OneDrive\\Documents\\Unreal Projects\\COP4331C - TheWell\\TheWell.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.2"
+			}
+		}
+	]
+}
