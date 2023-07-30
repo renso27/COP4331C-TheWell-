@@ -72,3 +72,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Content/Megascans/Surfaces/Stone_Wall_uithbatlw/MI_Stone_Wall_uithbatlw_1K.uasset
+Content/Megascans/Surfaces/Stone_Wall_uithbatlw/T_Stone_Wall_uithbatlw_1K_D.uasset
+Content/Megascans/Surfaces/Stone_Wall_uithbatlw/T_Stone_Wall_uithbatlw_1K_N.uasset
+Content/Megascans/Surfaces/Stone_Wall_uithbatlw/T_StoneWall_uithbatlw_1K_ORDp.uasset
